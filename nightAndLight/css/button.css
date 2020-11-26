@@ -1,0 +1,22 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+.darkButton {
+  background-image: url("../images/pngwing.com.png");
+  height: 60px;
+  width: 60px;
+  background-position: center center;
+  background-size: 55px;
+  border-radius: 50%;
+  outline: none;
+}
+.switchButton {
+  background-image: url("../images/searchpng.com-glowing-moon-png-image-free-download.png");
+  height: 60px;
+  width: 60px;
+  background-position: center center;
+  background-size: 55px;
+  border-radius: 50%;
+  outline: none;
+}

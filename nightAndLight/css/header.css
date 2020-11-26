@@ -1,0 +1,22 @@
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  background-image: url("../images/background23.png");
+}
+.darkHeader {
+  background-image: url("../images/backHeader.jpg");
+  color: white;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.logo {
+  font-size: 24px;
+  padding-left: 25px;
+}
+
+.switch {
+  margin-left: auto;
+  padding-right: 10px;
+}
