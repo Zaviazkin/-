@@ -47,10 +47,11 @@
     document.addEventListener("keydown", (e) => {
       const sound = giby(`audio[data-key='${e.keyCode}'`);
       const keybord = giby(`.key-${e.keyCode}`);
+     
+      if (!sound) return;
       const img = document.querySelectorAll(".music").forEach((img) => {
         img.classList.add("past");
       });
-      if (!sound) return;
       keybord.classList.add("playing");
       sound.play();
     });
