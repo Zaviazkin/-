@@ -1,0 +1,63 @@
+.electro-piano {
+  display: flex;
+  justify-content: center;
+  background-image: url("./700-nw.jpg");
+  background-position: center center;
+  background-size: 800px;
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+}
+.electro-piano div {
+  margin-top: 323px;
+  width: 47px;
+  height: 118px;
+  border: 1px solid rgb(158, 0, 0);
+  border-radius: 5%;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.key {
+  background-color: honeydew;
+  background-size: 100px;
+  transition: ease 1s;
+}
+.playing {
+  transform: rotateX(-20deg);
+  background-color: khaki;
+}
+.img0 {
+  margin-top: 130px;
+  margin-left: 400px;
+}
+.img1 {
+  margin-top: 130px;
+  margin-left: 300px;
+}
+.img2 {
+  margin-top: 110px;
+  margin-left: 350px;
+}
+.img3 {
+  margin-top: 130px;
+  margin-left: 900px;
+}
+.img4 {
+  margin-top: 130px;
+  margin-left: 1000px;
+}
+.img5 {
+  margin-top: 110px;
+  margin-left: 950px;
+}
+.past {
+  background-image: url("./klipartz.com.png");
+  background-size: 30px;
+  transform: scale(1.9);
+}
+.music {
+  position: absolute;
+  transition: ease 1.5s;
+  width: 30px;
+  height: 30px;
+}
